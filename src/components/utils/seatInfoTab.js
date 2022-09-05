@@ -22,6 +22,8 @@ const TabBar = styled(AppBar)`
     border-radius: 3px;
     & .MuiTabs-root{
       min-height: 2.5rem;
+      border: 1px solid #C7C7CC;
+      border-radius: 4px;
     }
     & button.Mui-selected{
         background-color: #1882FF;
@@ -30,14 +32,13 @@ const TabBar = styled(AppBar)`
     }
     & button.MuiButtonBase-root{
         font-family: 'sf-pro-medium';
-        border: 1px solid #C7C7CC;
+        
         text-transform: uppercase;
         font-size: 0.875rem;
         font-weight: 500;
         opacity: 1;
         letter-spacing: normal;
         min-height: 2.5rem;
-        border-radius: 0px 3px 3px 0px;
         height: 36px;
         padding: 8px 20px;
     }
