@@ -1,0 +1,142 @@
+.tabInner{
+    border: 1px solid #F6F6F6;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.12));
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12); */
+    border-radius: 6px!important;
+    box-shadow: none!important;
+}
+.checkoutDetails{
+    /* padding: 2rem; */
+    padding: 2rem 2rem 0 2rem;
+}
+.chkDetails_heading{
+    font-family: 'sf-pro-semibold';
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000;
+}
+.chkh_labelWrap{
+    text-align: center;
+}
+.chkh_labelWrap small{
+    display: block;
+    padding-top: 8px;
+    font-family: 'sf-pro-regular';
+    font-weight: 400;
+    font-size: 0.625rem;
+    color: #4C4C4C;
+}
+.chkh_label{
+    padding: 4px 16px!important;
+    border-radius: 16px!important;
+    height: auto!important;
+}
+.chkh_label span{
+    font-size: 1.125rem;
+    color: #000;
+}
+.financial_icon{
+    margin-right: 8px;
+}
+
+.chkDetails_trip{
+    padding-top: 8px;
+}
+.chkDetails_tripInfo .caption,.chkDetails_tripInfo .location,
+.chkDetails_trip_statsInfo span{
+    font-family: 'sf-pro-regular';
+}
+.chkDetails_tripInfo .caption,.chkDetails_trip_statsInfo span{
+    font-size: 0.75rem;
+    margin-bottom: 2px;
+    color: #4C4C4C;
+}
+.chkDetails_tripInfo .location,.chkDetails_tripInfo .time{
+    font-size: 1rem;
+    color: #000;
+}
+.chkDetails_tripInfo .time{
+    font-family: 'sf-pro-semibold';
+    font-weight: 600;
+}
+.chkDetails_tripInfo .counter{
+    font-family: 'sf-pro-medium';
+    font-size: .875rem;
+    color: #4C4C4C;
+    font-weight: 500;
+}
+.chkDetails_trip_statsInfo{
+    text-align: center;
+}
+.chkDetails_trip_statsInfo p{
+    color: #EF7E46;
+    font-weight: 500;
+    font-size: 0.875rem;
+    font-family: 'sf-pro-regular';
+}
+.chkDetails_trip_car{
+    width: 194px;
+    text-align: center;
+    background-image: -webkit-image-set(
+        url('../../assets/icon/line.png') 1x);
+      background-image: image-set(
+        url('../../assets/icon/line.png') 1x);
+    /* background-image: url('../../assets/icon/line.png'); */
+    background-repeat: no-repeat;
+    background-size: 194px;
+    background-position: center center;
+    position: relative;
+}
+.chkDetails_trip_car img{
+    background-color: #fff;
+    padding: 0 10px;
+}
+.bookingPlanWrap{
+    border-right: 1px solid #E0E0E1;
+}
+.price_display_box{
+    background-color: #E5F2FE;
+    padding: 1.875rem 2rem;
+    text-align: right;
+}
+.price_display_box span,.price_display_box h3{
+    font-family: 'sf-pro-semibold';
+    font-weight: 600;
+}
+.price_display_box span{
+    font-size: 0.625rem;
+    color: #000;
+}
+.price_display_box h3{
+    font-size: 1.5rem;
+    color: #235FD8;
+    line-height: 2rem;
+    padding-top: 2px;
+}
+.price_display_box h4{
+    font-family: 'sf-pro-medium';
+    font-weight: 500;
+    color: #1882FF;font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.4rem;
+}
+.price_display_box a{
+    margin-top: 0.75rem;
+    display: block;
+    text-decoration: none;
+    color: #1882FF;
+    font-family: 'sf-pro-medium';
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.btnSeatView{
+    background-color: #1882FF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    font-family: 'sf-pro-medium';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    line-height: 1.25rem;
+
+}

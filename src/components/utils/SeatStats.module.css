@@ -1,0 +1,17 @@
+.seatStatsWrap{
+    background-color: #FAFAFA;
+}
+.seatIconText span, .seatIconText p,.seatPrice{
+    color: #4C4C4C;
+    font-family: 'sf-pro-medium';
+    font-weight: 500!important;
+    font-size: 0.875rem!important;
+    white-space: nowrap;
+    line-height: 1.125rem;
+}
+.seatPrice{
+    color: #000000;
+}
+.seatInfo_data_footer{
+    background-color: #FAFAFA;
+}

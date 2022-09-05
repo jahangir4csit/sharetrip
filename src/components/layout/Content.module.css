@@ -1,0 +1,65 @@
+.contentWrap{
+    padding-top: 18px;
+    padding-bottom: 32px;
+}
+.sidebarHeader{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.sidebarHeader span{
+    color: #000;
+    font-size: .875rem;
+}
+.sidebarHeader button{
+    color: #3884F7;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: .05rem;
+    padding: 0;
+}
+.sidebar{
+    padding-bottom: 3rem;
+}
+.sidebarWidget{
+    padding: 1rem;
+    border-bottom: 1px solid #E0E0E1;
+}
+.sidebar .sidebarWidget:last-child{
+    border-bottom: none;
+}
+.sidebarWidget h3{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E0E0E1;
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+.sWidgetContent h4{
+    color: #4C4C4C;
+    font-size: 0.875rem;
+}
+.sidebarHeader,.sidebarHeader button,.sidebarWidget h3,
+.sWidgetContent h4
+{
+    font-family: 'sf-pro-medium';
+    font-weight: 500;
+    letter-spacing: normal;
+}
+.filterWrap{
+    padding: .2rem 0;
+}
+.filterInfo{
+    padding-bottom: .5rem;
+}
+.filterInfo span{
+    font-size: .875rem;
+    color: #000;
+}
+.filterInfo span b{
+    display: block;
+    font-family: 'sf-pro-bold';
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: normal;
+}

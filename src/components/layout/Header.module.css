@@ -1,0 +1,12 @@
+.appheader {
+  padding: 0 20px;
+}
+.mainNav a{
+  font-family: 'sf-pro-regular';
+  font-weight: 400;
+  font-size: .875rem;
+  text-decoration: none;
+  padding: .5rem;
+  color: #000000;
+}
+  
